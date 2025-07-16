@@ -10,3 +10,6 @@ print(triples)
 alist = [100,200,300,400,500]
 alist = alist [::-1]
 print(alist,"\n")
+
+my_list = [1,2,3]
+print(len(my_list))
