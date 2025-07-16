@@ -17,3 +17,7 @@ print(len(my_list))
 hi_list = [100,'ham',300,55]
 print(hi_list[1])
 print(hi_list[3])
+
+ham_list = [10,43,56,43,65,45,454,100,"ham","giga"]
+
+print(ham_list[1:9])
