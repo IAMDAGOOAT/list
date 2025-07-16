@@ -21,3 +21,13 @@ print(hi_list[3])
 ham_list = [10,43,56,43,65,45,454,100,"ham","giga"]
 
 print(ham_list[1:9])
+
+# iterate a list
+for item in ham_list:
+    print(item)
+    
+ling_list = ham_list + hi_list
+print(ling_list)
+
+ham_list.extend(hi_list)
+print(ham_list)
