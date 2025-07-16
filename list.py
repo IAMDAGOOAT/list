@@ -13,3 +13,7 @@ print(alist,"\n")
 
 my_list = [1,2,3]
 print(len(my_list))
+
+hi_list = [100,'ham',300,55]
+print(hi_list[1])
+print(hi_list[3])
