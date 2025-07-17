@@ -31,3 +31,29 @@ print(ling_list)
 
 ham_list.extend(hi_list)
 print(ham_list)
+L = [4, 3, 1, 7, 9, 5, 10, 8]
+print("Original List :-", L)
+
+# variable to store the sum of
+# the list
+count = 0
+
+# Finding the sum
+for i in L:
+    count += i
+
+# divide the total elements by
+# number of elements
+avg = count/len(L)
+
+print("sum = ", count)
+print("average = ", avg)
+
+# Sorting the elements of the list
+L.sort()
+
+# printing the first element
+print("Smallest element is:", L[0])
+
+# printing the last element
+print("Largest element is:", L[-1])
